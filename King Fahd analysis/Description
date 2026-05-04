@@ -9,8 +9,8 @@ This project is based on a dataset collected from King Fahd Hospital. The goal i
 The process started by exploring the dataset and reviewing data types. Several issues were identified, including incorrect data formats, which were corrected.
 
 A key step was handling the date and time fields. The original dataset contained combined date-time values, so they were separated into two columns:
-- Date
-- Time
+- **Date**
+- **Time**
 
 This created multiple date-related fields, which required careful handling during the schema design phase.
 
@@ -19,15 +19,15 @@ This created multiple date-related fields, which required careful handling durin
 ## Data Modeling Approach
 To handle the date-related challenge, two approaches were considered:
 
-- Keeping date and time fields separated
-- Using an alternating dimension approach in Power BI
+1. Keeping date and time fields separated.
+2. Using an alternating dimension approach in Power BI.
 
-Since the dataset is relatively small, the first approach was selected for simplicity and better performance.
+Since the dataset is relatively small, the **first approach** was selected for simplicity and better performance.
 
 After that:
-- Keys were created
-- Relationships between tables were defined
-- The data model was built successfully
+- Keys were created.
+- Relationships between tables were defined.
+- The data model was built successfully.
 
 ---
 
@@ -37,12 +37,12 @@ After completing the data modeling phase, interactive dashboards were created us
 The dashboards include:
 
 ### Branch Performance Dashboard
-- Tracks performance across hospital branches
-- Compares key metrics between branches
+- Tracks performance across hospital branches.
+- Compares key metrics between branches.
 
 ### Patient Analysis Dashboard
-- Analyzes patient trends
-- Provides insights on key healthcare indicators    
+- Analyzes patient trends.
+- Provides insights on key healthcare indicators.
 
 ---
 
@@ -52,9 +52,9 @@ A final report was created to summarize findings and provide actionable recommen
 ---
 
 ## Tools & Technologies
-- Power BI
-- Data Cleaning & Transformation
-- Data Modeling
+- **Power BI**
+- **Data Cleaning & Transformation**
+- **Data Modeling**
 
 ---
 
