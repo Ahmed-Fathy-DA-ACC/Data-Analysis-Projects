@@ -31,6 +31,18 @@ After that:
 
 ---
 
+## DAX Calculations & Medical Insights
+In addition to data modeling, several **DAX measures** were developed to support deeper analysis of hospital operations.
+
+These included:
+- Calculating **Risk Score / Severity Level** for patient cases.
+- Creating custom metrics relevant to healthcare analysis.
+- Supporting medical insights such as trend severity, case prioritization, and operational KPIs.
+
+These measures helped transform raw data into meaningful clinical and operational indicators used in the dashboards.
+
+---
+
 ## Dashboard Development
 After completing the data modeling phase, interactive dashboards were created using Power BI.
 
@@ -53,10 +65,11 @@ A final report was created to summarize findings and provide actionable recommen
 
 ## Tools & Technologies
 - **Power BI**
+- **DAX (Data Analysis Expressions)**
 - **Data Cleaning & Transformation**
 - **Data Modeling**
 
 ---
 
 ## Conclusion
-This project covers the full data analysis lifecycle, from raw data cleaning to building dashboards and delivering business insights.
+This project covers the full data analysis lifecycle, from raw data cleaning to building dashboards, developing DAX-based calculations, and delivering actionable healthcare insights.
