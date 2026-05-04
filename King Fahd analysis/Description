@@ -1,0 +1,45 @@
+# Hospital Data Analysis Project
+
+## Overview
+
+This project is based on a dataset provided by King Fahd Hospital. The main objective was to clean, transform, and analyze the data, then build an interactive dashboard to support decision-making.
+
+## Data Preparation
+
+The project started with exploring the dataset and reviewing data types. Several inconsistencies were identified and corrected, especially incorrect data formats.
+
+One of the key challenges was handling date and time fields. The original data contained combined date-time values, which were separated into two different columns (date and time). This resulted in having multiple date-related fields, creating a challenge when designing the data schema.
+
+## Data Modeling Approach
+
+To handle the date complexity, two approaches were considered:
+
+* Keeping date fields separated as they are
+* Using an alternating dimension technique in Power BI
+
+Since the dataset was relatively small, the first approach was selected for simplicity and efficiency.
+
+After that, primary and foreign keys were created to ensure proper relationships between tables, followed by building the data model.
+
+## Dashboard Development
+
+Once the data modeling was completed, interactive dashboards were created using Power BI. The dashboards provide clear insights into hospital operations and performance.
+
+Two main dashboards were developed:
+
+* Branch Performance Dashboard: to monitor and compare performance across different hospital branches
+* Patient Analysis Dashboard: to analyze patient data, trends, and key metrics
+
+## Insights and Recommendations
+
+A final report was created to summarize key findings and provide actionable recommendations based on the analysis. These insights aim to support better decision-making and improve overall hospital performance.
+
+## Tools and Technologies
+
+* Power BI
+* Data Cleaning and Transformation Techniques
+* Data Modeling
+
+## Conclusion
+
+This project demonstrates the full data analysis workflow, starting from raw data cleaning to delivering interactive dashboards and business insights.
