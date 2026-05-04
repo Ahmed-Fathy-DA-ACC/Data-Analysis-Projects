@@ -1,45 +1,36 @@
 # Hospital Data Analysis Project
 
 ## Overview
-
-This project is based on a dataset provided by King Fahd Hospital. The main objective was to clean, transform, and analyze the data, then build an interactive dashboard to support decision-making.
+This project is based on a dataset collected from King Fahd Hospital. The goal of this project is to clean, process, and analyze the data, then build interactive dashboards to support better decision-making.
 
 ## Data Preparation
+The process started by exploring the dataset and reviewing the data types. Several issues were identified, including incorrect data formats, which were then fixed.
 
-The project started with exploring the dataset and reviewing data types. Several inconsistencies were identified and corrected, especially incorrect data formats.
-
-One of the key challenges was handling date and time fields. The original data contained combined date-time values, which were separated into two different columns (date and time). This resulted in having multiple date-related fields, creating a challenge when designing the data schema.
+A key step was handling the date and time fields. The original data contained combined date-time values, so they were separated into two columns: one for the date and another for the time. This resulted in having multiple date-related columns, which created a challenge when designing the data schema.
 
 ## Data Modeling Approach
+To solve the date-related issue, two approaches were considered:
+- Working with the date and time fields separately
+- Using an alternating dimension technique in Power BI
 
-To handle the date complexity, two approaches were considered:
+Since the dataset is relatively small, the first approach was chosen for simplicity and efficiency.
 
-* Keeping date fields separated as they are
-* Using an alternating dimension technique in Power BI
-
-Since the dataset was relatively small, the first approach was selected for simplicity and efficiency.
-
-After that, primary and foreign keys were created to ensure proper relationships between tables, followed by building the data model.
+After that, keys were created to define relationships between tables, and the data model was built accordingly.
 
 ## Dashboard Development
+After completing the data modeling, interactive dashboards were developed using Power BI to visualize the data and extract insights.
 
-Once the data modeling was completed, interactive dashboards were created using Power BI. The dashboards provide clear insights into hospital operations and performance.
-
-Two main dashboards were developed:
-
-* Branch Performance Dashboard: to monitor and compare performance across different hospital branches
-* Patient Analysis Dashboard: to analyze patient data, trends, and key metrics
+Two main dashboards were created:
+- Branch Performance Dashboard: to track and compare the performance of different hospital branches
+- Patient Analysis Dashboard: to analyze patient data, trends, and key metrics
 
 ## Insights and Recommendations
-
-A final report was created to summarize key findings and provide actionable recommendations based on the analysis. These insights aim to support better decision-making and improve overall hospital performance.
+A final report was prepared to present key insights and provide actionable recommendations based on the analysis. These recommendations aim to improve operational efficiency and support data-driven decisions.
 
 ## Tools and Technologies
-
-* Power BI
-* Data Cleaning and Transformation Techniques
-* Data Modeling
+- Power BI
+- Data Cleaning and Transformation
+- Data Modeling
 
 ## Conclusion
-
-This project demonstrates the full data analysis workflow, starting from raw data cleaning to delivering interactive dashboards and business insights.
+This project demonstrates a complete data analysis workflow, starting from raw data cleaning to building dashboards and delivering meaningful insights.
