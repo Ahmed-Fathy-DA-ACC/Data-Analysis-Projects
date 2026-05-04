@@ -1,0 +1,75 @@
+# Hospital Data Analysis Project
+
+## Overview
+This project is based on a dataset collected from King Fahd Hospital. The goal is to clean, process, and analyze the data, then build interactive dashboards to support better decision-making.
+
+---
+
+## Data Preparation
+The process started by exploring the dataset and reviewing data types. Several issues were identified, including incorrect data formats, which were corrected.
+
+A key step was handling the date and time fields. The original dataset contained combined date-time values, so they were separated into two columns:
+- **Date**
+- **Time**
+
+This created multiple date-related fields, which required careful handling during the schema design phase.
+
+---
+
+## Data Modeling Approach
+To handle the date-related challenge, two approaches were considered:
+
+1. Keeping date and time fields separated.
+2. Using an alternating dimension approach in Power BI.
+
+Since the dataset is relatively small, the **first approach** was selected for simplicity and better performance.
+
+After that:
+- Keys were created.
+- Relationships between tables were defined.
+- The data model was built successfully.
+
+---
+
+## DAX Calculations & Medical Insights
+In addition to data modeling, several **DAX measures** were developed to support deeper analysis of hospital operations.
+
+These included:
+- Calculating **Risk Score / Severity Level** for patient cases.
+- Creating custom metrics relevant to healthcare analysis.
+- Supporting medical insights such as trend severity, case prioritization, and operational KPIs.
+
+These measures helped transform raw data into meaningful clinical and operational indicators used in the dashboards.
+
+---
+
+## Dashboard Development
+After completing the data modeling phase, interactive dashboards were created using Power BI.
+
+The dashboards include:
+
+### Branch Performance Dashboard
+- Tracks performance across hospital branches.
+- Compares key metrics between branches.
+
+### Patient Analysis Dashboard
+- Analyzes patient trends.
+- Provides insights on key healthcare indicators.
+
+---
+
+## Insights and Recommendations
+A final report was created to summarize findings and provide actionable recommendations aimed at improving hospital operations and decision-making.
+
+---
+
+## Tools & Technologies
+- **Power BI**
+- **DAX (Data Analysis Expressions)**
+- **Data Cleaning & Transformation**
+- **Data Modeling**
+
+---
+
+## Conclusion
+This project covers the full data analysis lifecycle, from raw data cleaning to building dashboards, developing DAX-based calculations, and delivering actionable healthcare insights.
